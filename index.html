@@ -1,459 +1,1615 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>EventCon</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stamina &mdash; Website Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <!-- Place favicon.ico in the root directory -->
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/gijgo.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/slicknav.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+  <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+
 </head>
 
-<body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-    <!-- header-start -->
-    <header>
-        <div class="header-area ">
-            <div id="sticky-header" class="main-header-area">
-                <div class="container">
-                    <div class="header_bottom_border">
-                        <div class="row align-items-center">
-                            <div class="col-xl-3 col-lg-3">
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <img src="img/logo.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6">
-                                <div class="main-menu  d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="index.html">home</a></li>
-                                            <li><a href="performer.html">Performer</a></li>
-                                            
-                                            <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="about.html">about</a></li>
-                                                    <li><a href="Program.html">Program</a></li>
-                                                    <li><a href="Venue.html">Venue</a></li>
-                                                    <li><a href="elements.html">elements</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">blog</a></li>
-                                                    <li><a href="single-blog.html">single-blog</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                                <div class="buy_tkt">
-                                    <div class="book_btn d-none d-lg-block">
-                                        <a href="#">Buy Tickets</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
+  <div class="site-wrap">
 
-                </div>
-            </div>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <div class="site-logo"><a href="index.html">Stamina<span>.</span> </a></div>
+          <div class="ml-auto">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#classes-section" class="nav-link">Classes</a></li>
+                <li><a href="#schedule-section" class="nav-link">Schedule</a></li>
+                <li><a href="#trainer-section" class="nav-link">Trainer</a></li>
+                <li><a href="#services-section" class="nav-link">Services</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
+          </div>
+
+        </div>
+      </div>
+
     </header>
-    <!-- header-end -->
 
-    <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-xl-12">
-                        <div class="slider_text text-center">
-                            <div class="shape_1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                <img src="img/shape/shape_1.svg" alt="">
-                            </div>
-                            <div class="shape_2 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
-                                <img src="img/shape/shape_2.svg" alt="">
-                            </div>
-                            <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">12 Feb, 2020</span>
-                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">Concert  2020</h3>
-                            <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Green Avenue, New York</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <a id="bgndVideo" class="player"
+      data-property="{videoURL:'https://www.youtube.com/watch?v=w-cRWOjlk8c',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',autoPlay:true, mute:true, startAt:255, stopAt: 271, opacity:1}">
+    </a>
+
+    <div class="intro-section" id="home-section" style="background-color: #ccc;">
+      <div class="container">
+
+        <div class="row align-items-center">
+          <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
+            <h1 class="mb-3">We Believe Little Things Matter</h1>
+            <p class="lead mx-auto desc mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptate, optio praesentium. Ex, veniam, harum.</p>
+            <p class="text-center">
+              <a href="#" class="btn btn-outline-white py-3 px-5">Get Started</a>
+            </p>
+          </div>
         </div>
-    </div>
-    <!-- slider_area_end -->
 
-    <!-- performar_area_start  -->
-    <div class="performar_area black_bg">
-        <div class="container">
+      </div>
+    </div>
+
+    <div class="schedule-wrap">
+
+
+
+      <div class="d-md-flex align-items-center">
+        <div class="hours mr-md-4 mb-4 mb-lg-0">
+          <strong class="d-block">Hours</strong>
+          Opening: 7:30am &mdash;
+          Closing: 9:00pm
+        </div>
+        <div class="cta ml-auto">
+          <a href="#contact-section" class="smoothscroll d-flex d-md-flex align-items-center btn">
+            <span class="mx-auto">  <span>Contact us</span> <span class="arrow icon-keyboard_arrow_right"></span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-8 section-heading">
+            <span class="subheading">Stay Healthy</span>
+            <h2 class="heading mb-3">Get A Perfect Body</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          </div>
+        </div>
+
+        <!-- Slider -->
+        <div class="owl-carousel nonloop-block-14 block-14" data-aos="fade">
+          <div class="slide">
+            <div class="ftco-feature-1">
+              <span class="icon flaticon-fit"></span>
+              <div class="ftco-feature-1-text">
+                <h2>Be Fit</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="ftco-feature-1">
+              <span class="icon flaticon-gym-1"></span>
+              <div class="ftco-feature-1-text">
+                <h2>Join Club</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                  texts.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="ftco-feature-1">
+              <span class="icon flaticon-gym"></span>
+              <div class="ftco-feature-1-text">
+                <h2>Gym Fitness</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                  texts.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="ftco-feature-1">
+              <span class="icon flaticon-vegetables"></span>
+              <div class="ftco-feature-1-text">
+                <h2>Eat Vegie</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                  texts.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="ftco-feature-1">
+              <span class="icon flaticon-fruit-juice"></span>
+              <div class="ftco-feature-1-text">
+                <h2>Fruit Juices</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                  texts.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="slide">
+            <div class="ftco-feature-1">
+              <span class="icon flaticon-stationary-bike"></span>
+              <div class="ftco-feature-1-text">
+                <h2>Body Warmup</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                  texts.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bgimg" style="background-image: url('images/bg_2.jpg');"  data-stellar-background-ratio="0.5">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+          <div class="col-md-7">
+            <h2 class="">Get The Result You Want</h2>
+            <p class="lead mx-auto desc mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, laudantium quia blanditiis ipsum. <a href="#" target="_blank">Get Started</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="site-section" id="classes-section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-8  section-heading">
+            <span class="subheading">Fitness Class</span>
+            <h2 class="heading mb-3">Classes</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="class-item d-flex align-items-center">
+              <a href="single.html" class="class-item-thumbnail">
+                <img src="images/img_1.jpg" alt="Image">
+              </a>
+              <div class="class-item-text">
+                
+                <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                <span>By Justin Daniel</span>,
+                <span>30 minutes</span>
+              </div>
+            </div>
+
+            <div class="class-item d-flex align-items-center">
+              <a href="single.html" class="class-item-thumbnail">
+                <img src="images/img_2.jpg" alt="Image">
+              </a>
+              <div class="class-item-text">
+                
+                <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                <span>By Justin Daniel</span>,
+                <span>30 minutes</span>
+              </div>
+            </div>
+
+            <div class="class-item d-flex align-items-center">
+              <a href="single.html" class="class-item-thumbnail">
+                <img src="images/img_3.jpg" alt="Image">
+              </a>
+              <div class="class-item-text">
+                
+                <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                <span>By Justin Daniel</span>,
+                <span>30 minutes</span>
+              </div>
+            </div>
+            
+            <div class="class-item d-flex align-items-center">
+              <a href="single.html" class="class-item-thumbnail">
+                <img src="images/img_4.jpg" alt="Image">
+              </a>
+              <div class="class-item-text">
+                
+                <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                <span>By Justin Daniel</span>,
+                <span>30 minutes</span>
+              </div>
+            </div>
+
+            <div class="class-item d-flex align-items-center">
+              <a href="single.html" class="class-item-thumbnail">
+                <img src="images/img_1.jpg" alt="Image">
+              </a>
+              <div class="class-item-text">
+                
+                <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                <span>By Justin Daniel</span>,
+                <span>30 minutes</span>
+              </div>
+            </div>
+            
+           
+          </div>
+          <div class="col-lg-6">
+            <div class="class-item d-flex align-items-center">
+              <a href="single.html" class="class-item-thumbnail">
+                <img src="images/img_1.jpg" alt="Image">
+              </a>
+              <div class="class-item-text">
+                
+                <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                <span>By Justin Daniel</span>,
+                <span>30 minutes</span>
+              </div>
+            </div>
+            
+            <div class="class-item d-flex align-items-center">
+              <a href="single.html" class="class-item-thumbnail">
+                <img src="images/img_2.jpg" alt="Image">
+              </a>
+              <div class="class-item-text">
+                
+                <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                <span>By Justin Daniel</span>,
+                <span>30 minutes</span>
+              </div>
+            </div>
+            
+            <div class="class-item d-flex align-items-center">
+              <a href="single.html" class="class-item-thumbnail">
+                <img src="images/img_3.jpg" alt="Image">
+              </a>
+              <div class="class-item-text">
+                
+                <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                <span>By Justin Daniel</span>,
+                <span>30 minutes</span>
+              </div>
+            </div>
+            
+            <div class="class-item d-flex align-items-center">
+              <a href="single.html" class="class-item-thumbnail">
+                <img src="images/img_4.jpg" alt="Image">
+              </a>
+              <div class="class-item-text">
+                
+                <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                <span>By Justin Daniel</span>,
+                <span>30 minutes</span>
+              </div>
+            </div>
+            
+            <div class="class-item d-flex align-items-center">
+              <a href="single.html" class="class-item-thumbnail">
+                <img src="images/img_1.jpg" alt="Image">
+              </a>
+              <div class="class-item-text">
+                
+                <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                <span>By Justin Daniel</span>,
+                <span>30 minutes</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bgimg" style="background-image: url('images/bg_3.jpg');"  data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+          <div class="col-md-7">
+            <h2 class="">Every Step Counts</h2>
+            <p class="lead mx-auto desc mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ad, reprehenderit enim!
+               <a href="#" target="_blank">Get Started</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section" id="schedule-section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-8  section-heading">
+            <span class="subheading">Fitness Sched</span>
+            <h2 class="heading mb-3">Schedule</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+              texts.
+              Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          </div>
+        </div>
+
+        
+        <div class="row">
+          <div class="col-12">
+            <ul class="nav days d-flex" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="sunday-tab" data-toggle="tab" href="#nav-sunday" role="tab" aria-controls="sunday"
+                  aria-selected="true">S</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="monday-tab" data-toggle="tab" href="#nav-monday" role="tab" aria-controls="monday"
+                  aria-selected="false">M</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#nav-tuesday" role="tab" aria-controls="tuesday"
+                  aria-selected="false">T</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#nav-wednesday" role="tab" aria-controls="wednesday"
+                  aria-selected="false">W</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" id="thursday-tab" data-toggle="tab" href="#nav-thursday" role="tab" aria-controls="thursday"
+                  aria-selected="false">T</a>
+              </li><li class="nav-item">
+                <a class="nav-link" id="friday-tab" data-toggle="tab" href="#nav-friday" role="tab" aria-controls="friday"
+                  aria-selected="false">F</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="saturday-tab" data-toggle="tab" href="#nav-saturday" role="tab" aria-controls="saturday"
+                  aria-selected="false">S</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="nav-sunday" role="tabpanel" aria-labelledby="nav-sunday-tab">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="section_title mb-80">
-                        <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Performer</h3>
-                    </div>
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Sunday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
                 </div>
+            
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Sunday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+            
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Sunday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+            
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Sunday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+            
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Sunday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+            
+            
+              </div>
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Sunday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+            
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Sunday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+            
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Sunday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+            
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Sunday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+            
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Sunday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div  class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                <div data-tilt class="thumb">
-                                    <img src="img/performer/1.png" alt="">
-                                </div>
-                                <div class="performer_heading">
-                                    <h4>Mr. Zosoldos</h4>
-                                    <span>Acoustic drum</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div  class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                                <div data-tilt class="thumb">
-                                    <img src="img/performer/2.png" alt="">
-                                </div>
-                                <div class="performer_heading">
-                                    <h4>Protik Hasan</h4>
-                                    <span>Acoustic drum</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div  class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                <div data-tilt class="thumb">
-                                    <img src="img/performer/3.png" alt="">
-                                </div>
-                                <div class="performer_heading">
-                                    <h4>Salmon Vicky</h4>
-                                    <span>Acoustic drum</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div   class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                <div data-tilt class="thumb">
-                                    <img src="img/performer/4.png" alt="">
-                                </div>
-                                <div class="performer_heading">
-                                    <h4>Filaris Habol</h4>
-                                    <span>Acoustic drum</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- performar_area_end  -->
-
-    <!-- about_area_start  -->
-    <div class="about_area black_bg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section_title text-center mb-80">
-                        <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" >About Program</h3>
-                        <p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" >The event regularly attracts a diverse range of attendees from around the world, across different professions, and with different.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-7 col-md-6">
-                    <div class="about_thumb">
-                        <div class="shap_3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
-                            <img src="img/shape/shape_3.svg" alt="">
-                        </div>
-                        <div class="thumb_inner  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                            <img src="img/about/about.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6">
-                    <div class="about_info pl-68">
-                        <h4 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">It’s time to book your seat</h4>
-                        <p  class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">The event regularly attracts a diverse range of attendees from around the world, across different professions, and with different levels of experience transform your business.</p>
-                        <a href="#" class="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Buy Tickets</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- about_area_end  -->
-
-    <div class="program_details_area detials_bg_1 overlay2">
-        <div class="container">
+          </div>
+          <div class="tab-pane fade" id="nav-monday" role="tabpanel" aria-labelledby="nav-monday-tab">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="section_title text-center mb-80  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                        <h3>Program Details</h3>
-                    </div>
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Monday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="program_detail_wrap">
-                        <div class="single_propram">
-                            <div class="inner_wrap">
-                                <div class="circle_img"></div>
-                                <div class="porgram_top">
-                                    <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">3.00-4.00pm</span>
-                                    <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">12 Feb 2020</h4>
-                                </div>
-                                <div class="thumb wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                    <img src="img/program_details/1.png" alt="">
-                                </div>
-                                <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Mr. Zosoldos</h4>
-                            </div>
-                        </div>
-                        <div class="single_propram">
-                            <div class="inner_wrap">
-                                <div class="circle_img"></div>
-                                <div class="porgram_top">
-                                    <span class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">3.00-4.00pm</span>
-                                    <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">12 Feb 2020</h4>
-                                </div>
-                                <div class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                                    <img src="img/program_details/2.png" alt="">
-                                </div>
-                                <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">Mr. Zosoldos</h4>
-                            </div>
-                        </div>
-                        <div class="single_propram">
-                            <div class="inner_wrap">
-                                <div class="circle_img"></div>
-                                <div class="porgram_top">
-                                    <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">3.00-4.00pm</span>
-                                    <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">12 Feb 2020</h4>
-                                </div>
-                                <div class="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                    <img src="img/program_details/3.png" alt="">
-                                </div>
-                                <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Mr. Zosoldos</h4>
-                            </div>
-                        </div>
-                        <div class="single_propram">
-                            <div class="inner_wrap">
-                                <div class="circle_img"></div>
-                                <div class="porgram_top">
-                                    <span class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">3.00-4.00pm</span>
-                                    <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">12 Feb 2020</h4>
-                                </div>
-                                <div class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                                    <img src="img/program_details/4.png" alt="">
-                                </div>
-                                <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">Mr. Zosoldos</h4>
-                            </div>
-                        </div>
-                    </div>
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Monday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
                 </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Monday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Monday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Monday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+          
+              </div>
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Monday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Monday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Monday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Monday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Monday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="tab-pane fade" id="nav-tuesday" role="tabpanel" aria-labelledby="nav-tuesday-tab">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Tuesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Tuesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Tuesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Tuesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Tuesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+          
+              </div>
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Tuesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Tuesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Tuesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Tuesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Tuesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-wednesday" role="tabpanel" aria-labelledby="nav-wednesday-tab">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Wednesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Wednesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+          
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Wednesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Wednesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Wednesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+          
+              </div>
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Wednesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Wednesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Wednesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+          
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Wednesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Wednesday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="nav-thursday" role="tabpanel" aria-labelledby="nav-thursday-tab">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Thursday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Thursday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Thursday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Thursday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+          
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Thursday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+          
+              </div>
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Thursday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Thursday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Thursday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Thursday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Thursday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-friday" role="tabpanel" aria-labelledby="nav-friday-tab">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Friday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Friday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+          
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Friday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Friday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Friday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+          
+              </div>
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Friday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Friday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Friday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+          
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Friday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Friday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-saturday" role="tabpanel" aria-labelledby="nav-saturday-tab">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Saturday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Saturday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+                
+          
+          
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Saturday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Saturday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Saturday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+          
+              </div>
+              <div class="col-lg-6">
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_3.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Saturday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #3</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Saturday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #1</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_2.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Saturday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #2</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+          
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_4.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Saturday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #4</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+          
+                <div class="class-item d-flex align-items-center">
+                  <a href="single.html" class="class-item-thumbnail">
+                    <img src="images/img_1.jpg" alt="Image">
+                  </a>
+                  <div class="class-item-text">
+                    <span>Saturday 7:30am - 9:00am</span>
+                    <h2><a href="single.html">Fitness Class Name #5</a></h2>
+                    <span>By Justin Daniel</span>,
+                    <span>30 minutes</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        
+      </div>
     </div>
 
-    <!-- map_area_start  -->
-    <div class="map_area">
-        <div id="map" style="height: 600px; position: relative; overflow: hidden;">
+
+    <div class="bgimg" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+          <div class="col-md-7">
+            <h2 class="">Your Fitness Partner Where Ever You Are</h2>
+            <p class="lead mx-auto desc mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate distinctio, quasi omnis!
+              at <a href="#" target="_blank">Get Started</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+    
+    <div class="site-section" id="trainer-section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
+          <div class="col-md-8  section-heading">
+            <span class="subheading">Trainer</span>
+            <h2 class="heading mb-3">Our Trainers</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+              texts.
+              Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="">
+            <div class="person">
+              <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+              <h3>Justin Daniel</h3>
+              <p class="position">Trainer</p>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+              texts.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="person">
+              <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+              <h3>Matthew Davidson</h3>
+              <p class="position">Trainer</p>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                texts.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="person">
+              <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+              <h3>Matthew Davidson</h3>
+              <p class="position">Trainer</p>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                texts.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4 mb-lg-0 col-md-6 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="person">
+              <img src="images/person_4.jpg" alt="Image" class="img-fluid">
+              <h3>Matthew Davidson</h3>
+              <p class="position">Trainer</p>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                texts.</p>
+            </div>
+          </div>
         
         </div>
-        <script>
-            function initMap() {
-                var uluru = {
-                    lat: -25.363,
-                    lng: 131.044
-                };
-                var grayStyles = [{
-                        featureType: "all",
-                        stylers: [{
-                                saturation: -90
-                            },
-                            {
-                                lightness: 50
-                            }
-                        ]
-                    },
-                    {
-                        elementType: 'labels.text.fill',
-                        stylers: [{
-                            color: '#ccdee9'
-                        }]
-                    }
-                ];
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    center: {
-                        lat: -31.197,
-                        lng: 150.744
-                    },
-                    zoom: 9,
-                    styles: grayStyles,
-                    scrollwheel: false
-                });
-            }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
-        </script>
-        <div class="location_information black_bg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-            <h3>Concert 2020</h3>
-            <div class="info_wrap">
-                <div class="single_info">
-                    <span>Vanue:</span>
-                    <p>26/A, Coontum Avenu
-                        New York-2783</p>
-                </div>
-                <div class="single_info">
-                    <span>Phone:</span>
-                    <p>+10 (88) 267 368 283</p>
-                </div>
-                <div class="single_info">
-                    <span>Email:</span>
-                    <p>contact@concert20.com</p>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <!-- map_area_end  -->
 
-    <!-- brand_area_start  -->
-    <div class="brand_area black_bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section_title text-center mb-80">
-                        <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Sponsor Logos</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="brand_wrap">
-                        <div class="brand_active owl-carousel">
-                            <div class="single_brand text-center">
-                                <img src="img/brand/1.png" alt="">
-                            </div>
-                            <div class="single_brand text-center">
-                                <img src="img/brand/2.png" alt="">
-                            </div>
-                            <div class="single_brand text-center">
-                                <img src="img/brand/3.png" alt="">
-                            </div>
-                            <div class="single_brand text-center">
-                                <img src="img/brand/4.png" alt="">
-                            </div>
-                            <div class="single_brand text-center">
-                                <img src="img/brand/5.png" alt="">
-                            </div>
-                            <div class="single_brand text-center">
-                                <img src="img/brand/1.png" alt="">
-                            </div>
-                            <div class="single_brand text-center">
-                                <img src="img/brand/2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="site-section" id="services-section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
+          <div class="col-md-8  section-heading">
+            <span class="subheading">Fitness Services</span>
+            <h2 class="heading mb-3">Services</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+              texts.
+              </p>
+          </div>
         </div>
+
+        <div class="row">
+          <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="">
+            <div class="ftco-feature-1">
+              <span class="icon flaticon-fit"></span>
+              <div class="ftco-feature-1-text">
+                <h2>Be Fit</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                  texts.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="ftco-feature-1">
+              <span class="icon flaticon-gym-1"></span>
+              <div class="ftco-feature-1-text">
+                <h2>Join Club</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                  texts.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="ftco-feature-1">
+              <span class="icon flaticon-gym"></span>
+              <div class="ftco-feature-1-text">
+                <h2>Gym Fitness</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                  texts.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="">
+            <div class="ftco-feature-1">
+              <span class="icon flaticon-vegetables"></span>
+              <div class="ftco-feature-1-text">
+                <h2>Eat Vegie</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                  texts.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="ftco-feature-1">
+              <span class="icon flaticon-fruit-juice"></span>
+              <div class="ftco-feature-1-text">
+                <h2>Fruit Juices</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                  texts.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="ftco-feature-1">
+              <span class="icon flaticon-stationary-bike"></span>
+              <div class="ftco-feature-1-text">
+                <h2>Body Warmup</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                  texts.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
-    <!-- brand_area_end  -->
-    <!-- footer_start  -->
-    <footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-8">
-                        <div class="footer_widget">
-                            <div class="address_details text-center">
-                                <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">12 Feb, 2020</h4>
-                                <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Green Avenue, New York</h3>
-                                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">The event regularly attracts a diverse range of attendees from around the world.</p>
-                                <a href="#" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Buy Tickets</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+    <div class="site-section bg-light contact-wrap" id="contact-section">
+      <div class="container">
+        
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-8  section-heading">
+            <span class="subheading">Get In Touch</span>
+            <h2 class="heading mb-3">Contact Us</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+              texts.
+            </p>
+          </div>
         </div>
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
-                    </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <form method="post" data-aos="fade">
+              <div class="form-group row">
+                <div class="col-md-6 mb-3 mb-lg-0">
+                  <input type="text" class="form-control" placeholder="First name">
                 </div>
-            </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+    
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="text" class="form-control" placeholder="Subject">
+                </div>
+              </div>
+    
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <textarea class="form-control" id="" cols="30" rows="10"
+                    placeholder="Write your message here."></textarea>
+                </div>
+              </div>
+    
+              <div class="form-group row">
+                <div class="col-md-6">
+    
+                  <input type="submit" class="btn btn-primary py-3 px-5 btn-block" value="Send Message">
+                </div>
+              </div>
+    
+            </form>
+          </div>
         </div>
+      </div>
+    </div>
+
+    <div class="schedule-wrap2 clearfix">
+      <div class="d-md-flex align-items-center">
+        <div class="hours mr-md-4 mb-4 mb-lg-0">
+          <strong class="d-block">Hours</strong>
+          Opening: 7:30am &mdash;
+          Closing: 9:00pm
+        </div>
+        <div class="cta ml-auto">
+          <a href="#" class="d-flex d-md-flex align-items-center btn">
+            <span class="mx-auto"> <span>Contact us</span> <span class="arrow icon-keyboard_arrow_right"></span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="text-dark">About Stamina</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+
+          <div class="col-md-3 ml-auto">
+            <h3 class="text-dark">Links</h3>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Classes</a></li>
+              <li><a href="#">Schedule</a></li>
+              <li><a href="#">Trainer</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="text-dark">Subscribe</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <form action="#">
+              <div class="d-flex mb-5">
+                <input type="text" class="form-control rounded-0" placeholder="Email">
+                <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class=" pt-5">
+              <p class="copyright">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </footer>
-    <!-- footer_end  -->
-
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/gijgo.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/tilt.jquery.js"></script>
-    <script src="js/plugins.js"></script>
 
 
 
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
+  </div>
+  <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
 
 
-    <script src="js/main.js"></script>
+
+
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
